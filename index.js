@@ -19,7 +19,12 @@ Aşağıdakileri yap:
 
    İPUCU: fonksiyon oluşturmaya gerek yok
 */
-
+const surucuYasi = 27;
+if (surucuYasi > 18) {
+  console.log("true");
+} else {
+  console.log("false");
+}
 /*
 Görev 1b - Değerler (puanlamaya dahil değildir)
 
@@ -31,7 +36,13 @@ Aşağıdakileri yap:
 
    İPUCU: fonksiyon oluşturmaya gerek yok
 */
-
+let birinciDeger = "dünya";
+let ikinciDegeri = "venüs";
+if (birinciDeger.length == ikinciDegeri.length);
+{
+  birinciDeger = "uranus";
+}
+console.log(birinciDeger);
 /*
 Görev 1c - String bir değeri Number'a dönüştürün (puanlamaya dahil değildir)
 
@@ -42,7 +53,9 @@ Aşağıdakileri yap:
 
    İPUCU: Number metoduna bakabilirsin
 */
-
+let sayi = "1999";
+sayi = Number(sayi);
+console.log(sayi);
 /*
 Görev 1d - Çarpma
  
@@ -52,10 +65,11 @@ Aşağıdakileri yaparak carpma isimli fonksiyonu tamamla:
    3. console.log(carpma(7,4)) ile yazdığın fonsiyonu test edin. Console'da sonucu 28 olarak görmelisin.
 */
 
-function carpma(/*buraya kodunu yazabilirsin*/) {
-  /*buraya kodunu yazabilirsin*/
+function carpma(a, b) {
+  let sonuc = a * b;
+  return sonuc;
 }
-
+console.log(carpma(7, 4));
 /* Görev 2 : Köpeğin Yaşı */
 
 /*
